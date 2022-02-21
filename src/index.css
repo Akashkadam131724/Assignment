@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&display=swap');
+ *{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #173D6A;
+   /* #63A2EC */
+   font-family: 'Maven Pro', sans-serif;
+ }
+ body{
+   background-color: #EBF1FB;
+   /* background-image: url('https://media.istockphoto.com/photos/people-group-having-addicted-fun-together-using-smartphones-detail-of-picture-id952414660?k=20&m=952414660&s=612x612&w=0&h=KYFjchQ-8BcQM_IiQdWXOnmPvEaKCdlWBnVPKX8H0Q8=');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed; */
+ }
+ img{
+   width: 350px;
+   height: 480px;
+   border-radius: .4rem;
+ }
+ .App{
+   display: flex;
+   align-items: center;
+   flex-direction: column; 
+  }
+ 
+  header{
+    padding: .5rem;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-top: 0.3rem; */
+    margin-bottom: 0.3rem;
+    color: #63A2EC;
+    /* border: 1px solid black; */
+  }
+  footer{
+    width: 100%;
+    display: flex;
+    height: 2.4rem;
+    /* border: 1px solid black; */
+    justify-content: space-between ;
+    align-items: center;
+    padding: 1rem;
+    background: #bcb8d646;
+    padding: .5rem;
+    margin-top: 0.1rem;
+    border-radius: .3rem;
+  }
+ 
+  .center_footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+  }
+  footer p button {
+    width: 3rem;
+    border: none;
+    padding: .2rem;
+    font-size: 1.3rem;
+    margin-right: 0.2rem;
+    border-radius: .5rem;
+    background-color: #8B9BAC;
+    /* border: 1px solid #E1737B; */
+    cursor: pointer;
+  }
+  footer p button:hover{
+    border: 1px solid rgba(0,0,0,.8);
+  }
+span{
+    margin-left: 0.2rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  }
+  .divider{
+    height: 1px;
+    margin-top: 0.7rem;
+    border: 1px solid #7B8BA4;
+  }
+  .page{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* position: sticky;
+    bottom: 0; */
+  }
+  .page button{
+    /* border: none; */
+    border: 1px solid black;
+    border-right: 1px solid #173D6A;
+    padding-bottom: .2rem;
+    font-size: 1.5rem;
+    width: 2rem;
+    margin: .5rem;
+    border-radius: 10px;
+     cursor:pointer;
+    }
+    select{
+    cursor:pointer;
+    height: 1.6rem;
+    width: 5rem;
+    
+    font-size: 1rem;
+    margin-top: 0.7rem;
+  }
+  /* @media screen and (min-width: 678px ){
+    img{
+      width: 377px;
+      height: 565px;
+      border-radius: .4rem;
+    } 
+  } */
+  /* @media screen and (width: 280px){
+    img{
+      width: 340px;
+      height: 550px;
+      border-radius: .4rem;
+    } 
+  } */
+  /* @media screen and (min-width: 1000px){
+    img{
+      width: 400px;
+      height: 500px;
+      border-radius: .4rem;
+    }
+  } */
